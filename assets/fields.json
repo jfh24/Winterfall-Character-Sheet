@@ -1,0 +1,1958 @@
+{
+  "title": "Winterfall Character Sheet",
+  "sourcePdf": "assets/winterfall-source.pdf",
+  "pages": [
+    {
+      "number": 1,
+      "width": 810.0,
+      "height": 1024.0,
+      "image": "assets/winterfall-page-1.png"
+    },
+    {
+      "number": 2,
+      "width": 726.0,
+      "height": 1024.0,
+      "image": "assets/winterfall-page-2.png"
+    }
+  ],
+  "fields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        98.0,
+        721.0,
+        314.0,
+        737.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Race",
+      "label": "Race",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        98.0,
+        688.0,
+        314.0,
+        704.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Strength_Value",
+      "label": "Strength Value",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        104.0,
+        606.0,
+        149.0,
+        634.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Strength_Mod",
+      "label": "Strength Mod",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        158.0,
+        606.0,
+        205.0,
+        634.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Agility_Value",
+      "label": "Agility Value",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        101.0,
+        510.0,
+        147.0,
+        538.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Agility_Mod",
+      "label": "Agility Mod",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        157.0,
+        510.0,
+        202.0,
+        538.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Flexibility_Value",
+      "label": "Flexibility Value",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        102.0,
+        414.0,
+        149.0,
+        442.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Flexibility_Mod",
+      "label": "Flexibility Mod",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        157.0,
+        414.0,
+        204.0,
+        442.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Nimbleness_Value",
+      "label": "Nimbleness Value",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        105.0,
+        315.0,
+        153.0,
+        343.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Nimbleness_Mod",
+      "label": "Nimbleness Mod",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        164.0,
+        315.0,
+        212.0,
+        343.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Concentration_Value",
+      "label": "Concentration Value",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        646.0,
+        625.0,
+        697.0,
+        655.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Concentration_Mod",
+      "label": "Concentration Mod",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        708.0,
+        625.0,
+        759.0,
+        655.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Intelligence_Value",
+      "label": "Intelligence Value",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        668.0,
+        520.0,
+        715.0,
+        548.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Intelligence_Mod",
+      "label": "Intelligence Mod",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        724.0,
+        520.0,
+        769.0,
+        548.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Willpower_Value",
+      "label": "Willpower Value",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        669.0,
+        416.0,
+        716.0,
+        444.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Willpower_Mod",
+      "label": "Willpower Mod",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        725.0,
+        416.0,
+        770.0,
+        444.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Speed_Value",
+      "label": "Speed Value",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        652.0,
+        316.0,
+        702.0,
+        344.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Speed_Mod",
+      "label": "Speed Mod",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        712.0,
+        316.0,
+        762.0,
+        344.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": true
+    },
+    {
+      "name": "Strength_Prof_1",
+      "label": "Strength Prof 1",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        102.9,
+        580.4,
+        112.9,
+        590.4
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Strength_Prof_2",
+      "label": "Strength Prof 2",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        125.4,
+        580.5,
+        135.4,
+        590.5
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Strength_Prof_3",
+      "label": "Strength Prof 3",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        147.8,
+        580.3,
+        157.8,
+        590.3
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Strength_Prof_4",
+      "label": "Strength Prof 4",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        170.1,
+        580.5,
+        180.1,
+        590.5
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Strength_Prof_5",
+      "label": "Strength Prof 5",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        192.8,
+        580.4,
+        202.8,
+        590.4
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Agility_Prof_1",
+      "label": "Agility Prof 1",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        99.9,
+        485.0,
+        109.9,
+        495.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Agility_Prof_2",
+      "label": "Agility Prof 2",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        122.1,
+        485.0,
+        132.1,
+        495.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Agility_Prof_3",
+      "label": "Agility Prof 3",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        144.6,
+        485.0,
+        154.6,
+        495.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Agility_Prof_4",
+      "label": "Agility Prof 4",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        166.9,
+        485.0,
+        176.9,
+        495.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Agility_Prof_5",
+      "label": "Agility Prof 5",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        189.1,
+        485.0,
+        199.1,
+        495.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Flexibility_Prof_1",
+      "label": "Flexibility Prof 1",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        100.0,
+        388.3,
+        110.0,
+        398.3
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Flexibility_Prof_2",
+      "label": "Flexibility Prof 2",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        122.5,
+        388.4,
+        132.5,
+        398.4
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Flexibility_Prof_3",
+      "label": "Flexibility Prof 3",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        145.0,
+        388.1,
+        155.0,
+        398.1
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Flexibility_Prof_4",
+      "label": "Flexibility Prof 4",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        167.1,
+        388.2,
+        177.1,
+        398.2
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Flexibility_Prof_5",
+      "label": "Flexibility Prof 5",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        189.3,
+        388.2,
+        199.3,
+        398.2
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Nimbleness_Prof_1",
+      "label": "Nimbleness Prof 1",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        104.3,
+        289.0,
+        114.3,
+        299.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Nimbleness_Prof_2",
+      "label": "Nimbleness Prof 2",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        128.0,
+        289.0,
+        138.0,
+        299.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Nimbleness_Prof_3",
+      "label": "Nimbleness Prof 3",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        151.7,
+        289.0,
+        161.7,
+        299.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Nimbleness_Prof_4",
+      "label": "Nimbleness Prof 4",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        175.8,
+        288.9,
+        185.8,
+        298.9
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Nimbleness_Prof_5",
+      "label": "Nimbleness Prof 5",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        200.1,
+        289.0,
+        210.1,
+        299.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Concentration_Prof_1",
+      "label": "Concentration Prof 1",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        653.0,
+        599.6,
+        663.0,
+        609.6
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Concentration_Prof_2",
+      "label": "Concentration Prof 2",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        676.5,
+        599.4,
+        686.5,
+        609.4
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Concentration_Prof_3",
+      "label": "Concentration Prof 3",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        699.3,
+        599.5,
+        709.3,
+        609.5
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Concentration_Prof_4",
+      "label": "Concentration Prof 4",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        722.5,
+        599.4,
+        732.5,
+        609.4
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Concentration_Prof_5",
+      "label": "Concentration Prof 5",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        745.8,
+        599.5,
+        755.8,
+        609.5
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Intelligence_Prof_1",
+      "label": "Intelligence Prof 1",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        668.9,
+        492.8,
+        678.9,
+        502.8
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Intelligence_Prof_2",
+      "label": "Intelligence Prof 2",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        691.0,
+        492.9,
+        701.0,
+        502.9
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Intelligence_Prof_3",
+      "label": "Intelligence Prof 3",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        712.9,
+        492.9,
+        722.9,
+        502.9
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Intelligence_Prof_4",
+      "label": "Intelligence Prof 4",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        734.9,
+        492.9,
+        744.9,
+        502.9
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Intelligence_Prof_5",
+      "label": "Intelligence Prof 5",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        756.5,
+        492.8,
+        766.5,
+        502.8
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Willpower_Prof_1",
+      "label": "Willpower Prof 1",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        668.7,
+        388.7,
+        678.7,
+        398.7
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Willpower_Prof_2",
+      "label": "Willpower Prof 2",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        691.0,
+        388.6,
+        701.0,
+        398.6
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Willpower_Prof_3",
+      "label": "Willpower Prof 3",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        712.9,
+        388.8,
+        722.9,
+        398.8
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Willpower_Prof_4",
+      "label": "Willpower Prof 4",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        734.8,
+        388.7,
+        744.8,
+        398.7
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Willpower_Prof_5",
+      "label": "Willpower Prof 5",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        756.7,
+        388.8,
+        766.7,
+        398.8
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Speed_Prof_1",
+      "label": "Speed Prof 1",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        653.3,
+        289.0,
+        663.3,
+        299.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Speed_Prof_2",
+      "label": "Speed Prof 2",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        676.9,
+        289.0,
+        686.9,
+        299.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Speed_Prof_3",
+      "label": "Speed Prof 3",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        699.9,
+        288.9,
+        709.9,
+        298.9
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Speed_Prof_4",
+      "label": "Speed Prof 4",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        723.1,
+        289.0,
+        733.1,
+        299.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Speed_Prof_5",
+      "label": "Speed Prof 5",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        746.5,
+        289.0,
+        756.5,
+        299.0
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Armor",
+      "label": "Armor",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        190.0,
+        152.0,
+        274.0,
+        208.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": true,
+      "centered": true
+    },
+    {
+      "name": "Health",
+      "label": "Health",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        370.0,
+        152.0,
+        458.0,
+        208.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": true,
+      "centered": true
+    },
+    {
+      "name": "Stamina",
+      "label": "Stamina",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 1,
+      "rect": [
+        551.0,
+        152.0,
+        635.0,
+        208.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": true,
+      "centered": true
+    },
+    {
+      "name": "ArmorSlot_1",
+      "label": "ArmorSlot 1",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        244.7,
+        54.6,
+        254.7,
+        64.6
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "ArmorSlot_2",
+      "label": "ArmorSlot 2",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        276.0,
+        54.6,
+        286.0,
+        64.6
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "ArmorSlot_3",
+      "label": "ArmorSlot 3",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        307.5,
+        54.6,
+        317.5,
+        64.6
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "ArmorSlot_4",
+      "label": "ArmorSlot 4",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        338.6,
+        54.7,
+        348.6,
+        64.7
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "ArmorSlot_5",
+      "label": "ArmorSlot 5",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        369.7,
+        54.6,
+        379.7,
+        64.6
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "ArmorSlot_6",
+      "label": "ArmorSlot 6",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        401.3,
+        54.7,
+        411.3,
+        64.7
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "ArmorSlot_7",
+      "label": "ArmorSlot 7",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        432.7,
+        54.7,
+        442.7,
+        64.7
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "ArmorSlot_8",
+      "label": "ArmorSlot 8",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        464.1,
+        54.6,
+        474.1,
+        64.6
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "ArmorSlot_9",
+      "label": "ArmorSlot 9",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        494.8,
+        54.6,
+        504.8,
+        64.6
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "ArmorSlot_10",
+      "label": "ArmorSlot 10",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        525.5,
+        54.6,
+        535.5,
+        64.6
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "ArmorSlot_11",
+      "label": "ArmorSlot 11",
+      "type": "checkbox",
+      "pdfType": "Btn",
+      "page": 1,
+      "rect": [
+        556.3,
+        54.7,
+        566.3,
+        64.7
+      ],
+      "flags": 2,
+      "defaultValue": false,
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Mastery_1",
+      "label": "School Mastery 1",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        298.0,
+        859.0,
+        388.0,
+        879.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Expert_1",
+      "label": "School Expert 1",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        230.0,
+        754.0,
+        320.0,
+        774.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Expert_2",
+      "label": "School Expert 2",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        365.0,
+        754.0,
+        455.0,
+        774.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Skilled_1",
+      "label": "School Skilled 1",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        158.0,
+        647.0,
+        250.0,
+        667.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Skilled_2",
+      "label": "School Skilled 2",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        295.0,
+        647.0,
+        387.0,
+        667.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Skilled_3",
+      "label": "School Skilled 3",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        432.0,
+        647.0,
+        524.0,
+        667.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Novice_1",
+      "label": "School Novice 1",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        88.0,
+        538.0,
+        180.0,
+        558.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Novice_2",
+      "label": "School Novice 2",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        225.0,
+        538.0,
+        317.0,
+        558.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Novice_3",
+      "label": "School Novice 3",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        363.0,
+        538.0,
+        455.0,
+        558.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Novice_4",
+      "label": "School Novice 4",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        501.0,
+        538.0,
+        593.0,
+        558.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Apprentice_1",
+      "label": "School Apprentice 1",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        32.0,
+        426.0,
+        116.0,
+        446.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Apprentice_2",
+      "label": "School Apprentice 2",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        158.0,
+        426.0,
+        250.0,
+        446.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Apprentice_3",
+      "label": "School Apprentice 3",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        295.0,
+        426.0,
+        387.0,
+        446.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Apprentice_4",
+      "label": "School Apprentice 4",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        432.0,
+        426.0,
+        524.0,
+        446.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "School_Apprentice_5",
+      "label": "School Apprentice 5",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        568.0,
+        426.0,
+        656.0,
+        446.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Weapon_1",
+      "label": "Weapon 1",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        35.0,
+        240.0,
+        115.0,
+        258.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Damage_1",
+      "label": "Damage 1",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        130.0,
+        240.0,
+        188.0,
+        258.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Range_1",
+      "label": "Range 1",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        199.0,
+        240.0,
+        257.0,
+        258.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Notes_1",
+      "label": "Notes 1",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        275.0,
+        240.0,
+        357.0,
+        258.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Weapon_2",
+      "label": "Weapon 2",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        35.0,
+        211.0,
+        115.0,
+        229.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Damage_2",
+      "label": "Damage 2",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        130.0,
+        211.0,
+        188.0,
+        229.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Range_2",
+      "label": "Range 2",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        199.0,
+        211.0,
+        257.0,
+        229.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Notes_2",
+      "label": "Notes 2",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        275.0,
+        211.0,
+        357.0,
+        229.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Weapon_3",
+      "label": "Weapon 3",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        35.0,
+        181.0,
+        115.0,
+        199.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Damage_3",
+      "label": "Damage 3",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        130.0,
+        181.0,
+        188.0,
+        199.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Range_3",
+      "label": "Range 3",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        199.0,
+        181.0,
+        257.0,
+        199.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Notes_3",
+      "label": "Notes 3",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        275.0,
+        181.0,
+        357.0,
+        199.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Weapon_4",
+      "label": "Weapon 4",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        35.0,
+        152.0,
+        115.0,
+        170.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Damage_4",
+      "label": "Damage 4",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        130.0,
+        152.0,
+        188.0,
+        170.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Range_4",
+      "label": "Range 4",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        199.0,
+        152.0,
+        257.0,
+        170.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Notes_4",
+      "label": "Notes 4",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        275.0,
+        152.0,
+        357.0,
+        170.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Weapon_5",
+      "label": "Weapon 5",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        35.0,
+        122.0,
+        115.0,
+        140.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Damage_5",
+      "label": "Damage 5",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        130.0,
+        122.0,
+        188.0,
+        140.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Range_5",
+      "label": "Range 5",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        199.0,
+        122.0,
+        257.0,
+        140.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Notes_5",
+      "label": "Notes 5",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        275.0,
+        122.0,
+        357.0,
+        140.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Weapon_6",
+      "label": "Weapon 6",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        35.0,
+        93.0,
+        115.0,
+        111.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Damage_6",
+      "label": "Damage 6",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        130.0,
+        93.0,
+        188.0,
+        111.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Range_6",
+      "label": "Range 6",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        199.0,
+        93.0,
+        257.0,
+        111.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Notes_6",
+      "label": "Notes 6",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        275.0,
+        93.0,
+        357.0,
+        111.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Gold",
+      "label": "Gold",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        527.0,
+        246.0,
+        647.0,
+        260.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Silver",
+      "label": "Silver",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        527.0,
+        185.0,
+        647.0,
+        199.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    },
+    {
+      "name": "Copper",
+      "label": "Copper",
+      "type": "text",
+      "pdfType": "Tx",
+      "page": 2,
+      "rect": [
+        527.0,
+        125.0,
+        647.0,
+        139.0
+      ],
+      "flags": 0,
+      "defaultValue": "",
+      "large": false,
+      "centered": false
+    }
+  ]
+}
