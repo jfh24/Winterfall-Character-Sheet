@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Winterfall Fillable Character Sheet</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="vendor/pdf-lib.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header class="toolbar">
+      <div class="brand" aria-label="Winterfall fillable character sheet">
+        <strong>Winterfall</strong>
+        <span>Character Sheet</span>
+      </div>
+
+      <nav class="page-tabs" aria-label="Sheet pages">
+        <button class="tab-button" type="button" data-page-jump="1">Page 1</button>
+        <button class="tab-button" type="button" data-page-jump="2">Page 2</button>
+      </nav>
+
+      <div id="fontTools" class="font-tools" aria-label="Selected text font settings">
+        <div class="segmented-control" aria-label="Font family">
+          <button type="button" data-style-family="serif" title="Serif font">Serif</button>
+          <button type="button" data-style-family="sans" title="Sans font">Sans</button>
+          <button type="button" data-style-family="mono" title="Mono font">Mono</button>
+        </div>
+        <div class="stepper-control" aria-label="Font size">
+          <button id="fontSizeDown" class="icon-button" type="button" title="Smaller text" aria-label="Smaller text">-</button>
+          <output id="fontSizeValue" aria-live="polite">100%</output>
+          <button id="fontSizeUp" class="icon-button" type="button" title="Larger text" aria-label="Larger text">+</button>
+        </div>
+        <div class="segmented-control" aria-label="Font weight">
+          <button type="button" data-style-weight="500" title="Medium weight">M</button>
+          <button type="button" data-style-weight="650" title="Heavy weight">H</button>
+          <button type="button" data-style-weight="700" title="Bold weight">B</button>
+        </div>
+        <div class="alignment-control" aria-label="Text alignment">
+          <button class="align-button" type="button" data-align="auto" title="Automatic alignment" aria-pressed="true">Auto</button>
+          <button class="align-button" type="button" data-align="left" title="Align left" aria-pressed="false">L</button>
+          <button class="align-button" type="button" data-align="center" title="Align center" aria-pressed="false">C</button>
+          <button class="align-button" type="button" data-align="right" title="Align right" aria-pressed="false">R</button>
+        </div>
+        <div class="swatch-control" aria-label="Text color">
+          <button type="button" data-style-color="#120f0a" style="--swatch: #120f0a" title="Ink"></button>
+          <button type="button" data-style-color="#4b2a12" style="--swatch: #4b2a12" title="Brown"></button>
+          <button type="button" data-style-color="#123a4b" style="--swatch: #123a4b" title="Blue"></button>
+          <button type="button" data-style-color="#6d1f17" style="--swatch: #6d1f17" title="Red"></button>
+          <button type="button" data-style-color="#f6eedc" style="--swatch: #f6eedc" title="Light"></button>
+        </div>
+        <div class="area-control" aria-label="Selected field area size">
+          <button id="moveMode" type="button" title="Move text boxes" aria-pressed="false">Move</button>
+          <button type="button" data-area-width="-1" title="Narrower field">W-</button>
+          <button type="button" data-area-width="1" title="Wider field">W+</button>
+          <button type="button" data-area-height="-1" title="Shorter field">H-</button>
+          <button type="button" data-area-height="1" title="Taller field">H+</button>
+        </div>
+        <button id="resetFont" type="button" title="Clear selected text styling">Reset</button>
+        <button id="resetArea" type="button" title="Reset selected field area">Reset Area</button>
+      </div>
+
+      <div class="toolbar-actions">
+        <div class="zoom-controls" aria-label="Zoom controls">
+          <button id="zoomOut" class="icon-button" type="button" title="Zoom out" aria-label="Zoom out">-</button>
+          <output id="zoomValue" aria-live="polite">100%</output>
+          <button id="zoomIn" class="icon-button" type="button" title="Zoom in" aria-label="Zoom in">+</button>
+        </div>
+        <button id="exportJson" type="button">Export JSON</button>
+        <button id="importJson" type="button">Import JSON</button>
+        <button id="downloadPdf" class="primary-action" type="button">Download PDF</button>
+        <button id="printSheet" type="button">Print</button>
+        <button id="clearSheet" class="danger-action" type="button">Clear</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="sheet-meta" role="status" aria-live="polite">
+        <span id="fieldCount">Loading fields...</span>
+        <span id="saveState">Autosave ready</span>
+      </div>
+      <section class="portrait-panel" aria-label="Character portrait">
+        <button id="uploadPortrait" type="button">Upload Portrait</button>
+      </section>
+      <section id="sheetStage" class="sheet-stage" aria-label="Winterfall fillable sheet"></section>
+    </main>
+
+    <input id="importFile" type="file" accept="application/json,.json" hidden>
+    <input id="portraitFile" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+  </body>
+</html>
