@@ -5,7 +5,7 @@ Static web app generated from the AcroForm version of the Winterfall character s
 ## Run
 
 ```powershell
-node server.js
+npm start
 ```
 
 Open `http://127.0.0.1:5173`.
@@ -14,8 +14,29 @@ If that port is already in use:
 
 ```powershell
 $env:PORT='5174'
-node server.js
+npm start
 ```
+
+## Deploy To Render
+
+This app is ready to deploy as a Render Node web service.
+
+### Option 1: Blueprint
+
+Use the included `render.yaml` in Render's Blueprint flow.
+
+### Option 2: Manual Web Service
+
+Create a new Render **Web Service** from the repository and use:
+
+```text
+Environment: Node
+Build Command: npm install
+Start Command: npm start
+Health Check Path: /healthz
+```
+
+Render supplies the `PORT` environment variable. The server binds to `0.0.0.0` so Render can route public traffic to it.
 
 ## Verify
 
